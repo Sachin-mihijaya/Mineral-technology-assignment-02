@@ -1,0 +1,421 @@
+\documentclass[12pt,a4paper, top=1.9cm, bottom=2.03cm, left=3.81cm, right=1.9cm]{article}
+
+% ---------------- Packages ----------------
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{tikz}
+\usepackage{lipsum}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{newtxtext} % Times New Roman font
+\usepackage{enumitem}
+\usepackage{booktabs}
+% ---------------- Page Geometry ----------------
+\geometry{a4paper, margin=1in}
+
+% ---------------- Page Number ----------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\begin{document}
+
+% ---------------- Title Page: No Page Number ----------------
+\pagenumbering{gobble}
+\begin{titlepage}
+    \begin{tikzpicture}[remember picture, overlay]
+        \draw[line width=1pt]
+        ([xshift=10mm,yshift=-10mm]current page.north west) rectangle
+        ([xshift=-10mm,yshift=10mm]current page.south east);
+    \end{tikzpicture}
+
+    \begin{center}
+        \vspace*{1cm}
+        \includegraphics[width=0.3\textwidth]{new.jpeg}\\[2cm]
+        
+       \textbf{\LARGE NANO-4232}\\[0.5cm]
+        \textbf{\Large MINERAL TECHNOLOGY}\\[1CM]
+        \textbf{\Large ASSIGNMENT 01}\\[0.3cm]
+        \textbf{\Large GROUP 02}\\[8cm]
+        \textbf{\Large Department of Nano Science Technology}\\
+        \textbf{\Large Faculty of Technology}\\
+        \textbf{\Large Wayamba University of Sri Lanka}\\
+        
+    \end{center}
+\end{titlepage}
+
+% ---------------- Start Main Content ----------------
+\clearpage
+\pagenumbering{arabic}
+
+% ---------------- TOC with Subsections ----------------
+\setcounter{tocdepth}{3}
+\tableofcontents
+\clearpage
+\listoffigures    % Creates the List of Figures
+\newpage
+\listoftables     % Creates List of Tables
+\newpage
+% ---------------- Sample Content ----------------
+\section{Hematite (Fe\textsubscript{2}O\textsubscript{3})}
+\onehalfspacing
+\noindent\fontsize{12}{14}\selectfont Hematite, a heavy and relatively hard oxide mineral, ferric oxide (Fe\textsubscript{2}O\textsubscript{3}), indicating that it consists of two iron (Fe) atoms bonded to three oxygen (O) atoms and it represents the most significant iron ore due to its elevated iron concentration (70 percent) and its prevalence.
+Its name is derived from the Greek word for "blood", about its reddish color. Many different forms of hematite have separate names. Steel-gray crystalline and coarse-grained varieties have a bright metallic luster and are called specular iron ore; fine-scale varieties are called micaceous hematite.
+Most hematite occurs in a soft, fine-grained, earthy form known as red ochre or ruddle. There are intermediate composite varieties between these types, often with a reniform surface (kidney ore) or a fibrous structure (pencil ore). Red ochre is used as a paint pigment; a purified form, rouge, is used for polishing plate glass.
+Hematite can be found on Mars, in sedimentary layers, hydrothermal veins, weathering and erosion, and contact metamorphism. Sedimentary deposits form as precipitates from water solutions or chemical reactions in aqueous environments, while hydrothermal veins form when hot fluids migrate through fractures in rocks. Contact metamorphism occurs when rocks are subjected to high temperatures and low-pressure conditions near igneous intrusions, forming hematite veins or nodules. Hematite deposits on Mars suggest the past presence of water on the planet's surface.
+\onehalfspacing
+\begin{figure}[h!]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Hematite-jpg.jpg}
+    \end{minipage} \hfill
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Industrial-Uses-of-Hematite-jpeg.jpg}
+    \end{minipage}
+    \caption{Hematite}
+\end{figure}
+\subsection{Genesis of Hematite Deposits}
+\onehalfspacing
+\noindent\fontsize{12}{14}\selectfont Depending on the specific environment and conditions, hematite can form through several geological processes. It is important to note that hematite can form in a variety of geologic environments, and the exact formation mechanisms may vary depending on local conditions. The presence of hematite can provide valuable insight into the geologic history and processes that may have occurred in a particular area.
+\begin{enumerate}[label=\arabic*.]  % Arabic numerals with a period after
+    \item \textbf{Banded Iron Formations (BIFs):} Banded iron formations are a significant source of hematite. Banded Iron Formations formed between 3.8 billion and 1.7 billion years ago during the Precambrian. These formations consist of alternating bands of iron-rich minerals, including hematite, and layers of chert or silica-rich minerals. Banded Iron Formations formed in ancient oceans as a result of iron and silica precipitation from seawater, often associated with the activity of iron-oxidizing bacteria. Over time these layers were compacted and lithified into sedimentary rocks.
+    \item \textbf{Hydrothermal Processes:} Hematite can also develop through hydrothermal activity, where heated, mineral-laden fluids flow through cracks or faults in rocks. These fluids often contain dissolved iron and other components. When the temperature of the fluids drops and they interact with the surrounding rock, hematite can crystallize, creating mineral veins or replacing existing deposits. In such settings, hematite is frequently found alongside minerals like quartz, calcite, and sulfide compounds.
+    \item \textbf{Weathering and Oxidation:} Hematite can be formed as a result of the weathering and oxidation of iron-bearing minerals in rocks. When iron minerals are exposed to oxygen and water for long periods, they undergo chemical reactions that convert iron into hematite. This process is particularly prominent in environments with abundant oxygen and moisture, such as tropical or humid climates. Weathering of iron-rich rocks, such as basalt or magnetite-bearing rocks, can lead to hematite-rich soils and sedimentary deposits.
+    \item \textbf{Metamorphic Processes:} Hematite can also form during metamorphism, which is the weathering process of rocks that change temperature and pressure. Under specific conditions, such as contact metamorphism near igneous intrusions, iron-bearing minerals can react and transform into hematite. This metamorphic hematite often occurs in veins or nodules associated with altered rocks.
+\end{enumerate}
+\subsection{Chemical Properties of Hematite}
+\begin{itemize}[label=\textbullet]  % Circle bullet
+    \item \textbf{Composition:} The chemical formula of hematite is Fe\textsubscript{2}O\textsubscript{3}. It consists of iron (Fe) and three oxygen (O) atoms, with the two iron atoms bonded to three oxygen atoms in each formula unit.
+    \item \textbf{Iron Content:} Hematite, a primary iron ore with a 70 percent iron content, is crucial for iron extraction and steel manufacturing. Its efficient smelting in blast furnaces produces molten iron, essential for construction and infrastructure.
+    \item \textbf{Crystal Structure:} Hematite crystallizes to form rhombohedral crystals in the trigonal crystal system. Its crystal structure is composed of close-packed oxygen atoms with iron ions occupying interstitial sites.
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.8\textwidth, height=150pt]{Crystal-structure-of-hematite-a-Ball-and-stick-and-b-coordination-polyhedral.png}  % Adjust width and height
+        \caption{Crystal structure of hematite}
+    \end{figure}
+    \item \textbf{Stability:} Hematite is a stable compound under normal conditions. It is resistant to chemical weathering and remains relatively unchanged over the long term.
+    \item \textbf{Redox Properties:} Hematite can undergo redox reactions, meaning it can both donate and accept electrons. In the presence of reducing agents, it can be reduced to form magnetite (Fe\textsubscript{3}O\textsubscript{4}) or metallic iron.
+    \item \textbf{Magnetic Properties:} Hematite, a non-magnetic material, can exhibit weak magnetic properties due to trace magnetite impurities. These properties are valuable in commercial jewelry and therapeutic products but lack scientific validation. These magnetic properties are influenced by incidental magnetite inclusions.
+    \item \textbf{Acid-Base Behavior:} Hematite is insoluble in water and most acids. It is stable and unaffected by weak acids such as dilute hydrochloric acid or sulfuric acid. However, concentrated acids and strong alkalis can attack and disintegrate hematite over time.
+    \item \textbf{Reactivity:} Under the right conditions, it can react with various chemicals. For example, it can react with carbon monoxide (CO) to produce iron metal and carbon dioxide (CO\textsubscript{2}) in a process known as hematite reduction.
+\end{itemize}
+\newpage
+\subsection{Physical Properties of Hematite}
+\begin{table}[h]
+\centering
+\begin{tabular}{ll}
+\toprule
+\textbf{Property}& \textbf{Value} \\ 
+\midrule
+Color & Metallic gray, dull to bright red \\ 
+Streak & Bright red to dark red \\ 
+Luster & Metallic to splendent \\ 
+Cleavage & None \\ 
+Diaphaneity & Opaque \\ 
+Mohs Hardness & 6.5 \\ 
+Specific Gravity & 5.26 \\
+Diagnostic Properties & Magnetic after heating \\
+Crystal System & Trigonal \\
+Tenacity & Brittle \\
+Fracture & Irregular/Uneven, Sub-Conchoidal \\
+Density & 5.26 g/cm\textsuperscript{3} (Measured) 5.255 g/cm\textsuperscript{3} (Calculated) \\
+\bottomrule
+\end{tabular}
+\caption{Physical properties of Hematite}
+\end{table}
+\subsection{Optical Properties of Hematite}
+\begin{table}[h]
+\centering
+\begin{tabular}{{@{} l p{8cm} @{}}}
+\toprule
+\textbf{Property}& \textbf{Value} \\ 
+\midrule
+Anisotropic & Distinct \\
+Color / Pleochroism & brownish-red to yellowish-red \\
+Twinning & Penetration twins on {0001}, or with {1010} as a composition plane. Frequently exhibits a lamellar twinning on {1011} in polished section. \\
+Optic Sign & Uniaxial (–) \\
+Relief & Very High \\
+\bottomrule
+\end{tabular}
+\caption{Optical Properties of Hematite}
+\end{table}
+\subsection{Metals Extracted from Hematite}
+\subsubsection{Primary Metal: Iron}
+\noindent\fontsize{12}{14}\selectfont Iron (Fe) is the primary metal extracted from hematite ore, which is mined through open-pit or underground methods. The ore is crushed and subjected to beneficiation processes to increase iron concentration and remove impurities. Common beneficiation methods include gravity separation, flotation, magnetic separation, magnetic separation followed by roasting, and various combined separation methods. The concentrated hematite ore is smelted in a blast furnace, where the chemical reduction of iron oxide to metallic iron occurs. The blast furnace mixes hematite ore with coke, a form of carbon, and limestone, which serves as a reducing agent.
+\newpage
+\[
+2C + O_2 \rightarrow 2CO
+\]
+\noindent\fontsize{12}{14}\selectfont The main chemical reaction involves carbon monoxide reacting with hematite to yield molten iron and carbon dioxide.
+\[ Fe_2O_3 + 3CO\rightarrow 2Fe +3CO_2 \]
+\noindent\fontsize{12}{14}\selectfont Simultaneously, limestone decomposes to quicklime (CaO), which reacts with silica impurities to form slag (CaSiO₃):
+\[CaCO_3→CaO+CO_2\]
+\[CaO +SiO_2→CaSiO_3\]
+\noindent\fontsize{12}{14}\selectfont The initial product is pig iron, a relatively impure form of iron with significant carbon and other impurities. To obtain steel, pig iron undergoes further refining in processes such as basic oxygen furnaces (BOF) or electric arc furnaces (EAF), where impurities are removed and other elements can be added to form various steel alloys.
+\[2C+O_2→2CO (removed as gas)\]
+\[Si+O_2→ SiO_2(slag)\]
+\noindent\fontsize{12}{14}\selectfont The EAF process, used for recycling scrap steel, similarly reduces iron oxides:
+\[Fe_2O_3+C→2Fe+CO\]
+\noindent\fontsize{12}{14}\selectfont 
+The result is pure steel (0.02–2\% carbon), tailored for industrial applications.
+\subsubsection{Associated Metals and Byproducts}
+\vspace{0.5cm}
+\noindent\fontsize{12}{14}\selectfont Hematite typically coexists with a variety of minerals, which serve as the marker of the different geological environments in which it develops. The iron oxides, such as magnetite, goethite, and iron carbonate, and the silica minerals like quartz, chert, ilmenite, rutile, calcite, pyrite, chamosite, and stilpnomelane, represent some of the common coexistent minerals. Iron is the primary metal extracted from hematite, but some associated minerals may also bear other beneficial metals that are extractable as by-products.
+\clearpage
+\noindent\fontsize{12}{14}\selectfont Manganese (Mn) is associated with iron ore, including hematite. Titanium (Ti) often appears as an impurity in ilmenite, either with hematite or as a constituent of the hematite mineral structure. Iron tailings, a product that is created during the process of beneficiation, may contain other metals of utility such as copper, nickel, and cobalt. The occurrence of hematite in association with other iron minerals suggests that they have a tendency to precipitate in the same geological environments but under different oxygen availability and other conditions, one mineral or the other will precipitate. Efforts to make the best use of resources and reduce waste by recovery of by-products such as slag and blast furnace gas in iron extraction are being demonstrated.
+\newpage
+\section{Galena}
+\noindent\fontsize{12}{14}\selectfont Galena is a sulfide mineral of lead with the formula PbS. It is the chief ore of lead on Earth and occurs in many deposits worldwide. Galena occurs in igneous and metamorphic rocks under normal conditions, but in hydrothermal veins of medium- to low-temperature. Galena occurs as veins within sediments, in breccia cements, disseminated grains, or as a replacement of dolostone and limestone.
+\begin{figure}[h!]
+        \centering
+\includegraphics[width=0.5\textwidth, height=150pt]{Galena-PbS-61-cm-is-a-common-mineral-yet-this-specimen-from-one-of-the.png}  % Adjust width and height
+        \caption{Galena}
+    \end{figure}
+
+
+\noindent\fontsize{12}{14}\selectfont Galena is also easy to identify. With good separation, it exhibits intact cleavage in three planes that meet at 90 degrees. It exhibits a metallic luster that's bright with a sharp silvery color, though tending to turn dull gray when weathered. Since lead is such a dominant component of galena, the mineral is very dense with a high specific gravity of 7.4 to 7.6 that can be readily recognized even in small amounts. Galena is a relatively soft mineral that has a Mohs hardness of around 2.5+ and produces a gray to black streak upon scratching. Its crystals are common and occur as cubes, octahedrons, or a combination of the two.
+\subsection{Structure of galena}
+\begin{figure}[h!]
+        \centering
+\includegraphics[width=0.5\textwidth, height=150pt]{fr.png}  % Adjust width and height
+        \caption{Structure of galena}
+    \end{figure}
+
+\noindent\fontsize{12}{14}\selectfont The chemical formula for Galena is PbS. That is, it contains an equal number of lead and sulfide ions. The ions are cubic in pattern and are repeated in all directions. It is this pattern that forms crystals of galena cubic in shape and causes galena to break along three directions at right angles.
+\subsection{Genesis of Galena (PbS)}
+\noindent\fontsize{12}{14}\selectfont Galena (PbS) usually deposits due to hydrothermal activity, particularly in the low- to medium-temperature environments. Galena precipitates from lead-bearing fluids that are flowing through fracture systems and porous rocks related to geological activity. The fluids move up from beneath the Earth's crust and, as they cool and come in contact with rocks or fluids rich in sulfur, galena settles out.
+
+\noindent\fontsize{12}{14}\selectfont Galena commonly finds its way to:
+\begin{itemize}[label=\textbullet]  % Circle bullet
+\item Hydrothermal vein deposits, accompanied by other minerals such as sphalerite (ZnS) and chalcopyrite (CuFeS \textsubscript{2}).
+\item Mississippi Valley-Type (MVT) deposits, in dolostone and limestone host rocks, where galena forms from basinal brines.
+\item Sedimentary exhalative (SEDEX) deposits, where hydrothermal fluids that are exhaled onto the seafloor lead to precipitation of the lead-sulfide minerals.
+\end{itemize}
+\noindent\fontsize{12}{14}\selectfont Galena can also be subjected to secondary enriching processes on a geological timescale to form supergene deposits where primary galena is remobilized at or close to surface.
+\newpage
+\subsection{Properties of Galena}
+\begin{table}[h]
+\centering
+\begin{tabular}{{@{} l p{8cm} @{}}}
+\toprule
+\textbf{Property}& \textbf{Value} \\ 
+\midrule
+Chemical Classification & Sulfide mineral \\
+Color & Bright silver on fresh surfaces with a metallic luster; tarnishes to a dull lead-gray color over time. \\
+Streak & Lead-gray to black\\
+Luster & Metallic on fresh surfaces; becomes dull when tarnished. \\
+Diaphaneity & Opaque (does not transmit light) \\
+Cleavage & Perfect cubic cleavage in three directions at right angles.\\
+Mohs Hardness & Approximately 2.5 to 2.75 \\
+Specific Gravity & High, ranging from 7.4 to 7.6 \\
+Diagnostic Properties & Distinctive color, high density, metallic luster, lead-gray streak, perfect cubic cleavage, and often cubic or octahedral crystals.\\
+Chemical Composition & Lead sulfide (PbS) \\
+Crystal System & Isometric (cubic system) \\
+Uses & Primary ore for the extraction of lead, also a minor source of silver.\\
+\bottomrule
+\end{tabular}
+\caption{Properties of Galena}
+\end{table}
+\subsection{Metals extracted of Galena}
+\subsubsection{Lead (Pb)}
+\begin{enumerate}[label=\arabic*.]  % Arabic numerals with a period after
+    \item The largest source of lead is galena and has about 86.6\% lead by weight.
+    \item Lead has been extracted and used for millennia because it has a low melting point, is soft, and is ductile.
+    \item Uses of Lead:
+    \begin{itemize}[label=\textbullet]  % Circle bullet
+    \item Lead-acid batteries (the largest current use).
+    \item Radiation shielding (e.g., in medical X-ray equipment and nuclear reactors).
+    \item Ammunition (e.g., bullets and shot).
+    \item Weights and counterweights.
+    \item Formerly used in plumbing, paints, solder, and as an antiknock in gasoline (uses now substantially reduced or discontinued due to toxicity).
+    \item Historically, galena crystals were used as semiconductors in prewire less communication systems (crystal radio sets).
+    \end{itemize}
+\end{enumerate}
+\subsubsection{Silver (Ag)}
+\begin{itemize}[label=\textbullet]  % Circle bullet
+    \item Galena typically contains silver as impurities, either as included silver sulfide mineral phases or as a solid solution in the galena structure.
+    \item The silver content value can exceed that of lead in some deposits, and this makes it a significant silver ore. Such a galena is called argentiferous galena.
+    \item Virtually all silver-bearing galena is of hydrothermal origin.
+\end{itemize}
+\subsection{Extraction Process}
+\noindent\fontsize{12}{14}\selectfont The process of extracting lead from galena has several steps:
+\begin{enumerate}[label=\arabic*.]  % Arabic numerals with a period after
+ \item \textbf{Mining and Concentrating:} Galena ore is mined and concentrated subsequently to separate it from other minerals. It could involve crushing, grinding, and flotation procedures.
+ \item \textbf{Smelting:} The concentrated galena (lead sulfide) is then smelted at high temperatures to convert it into lead oxide and then metallic lead. Different smelting techniques (indirect and direct) could be used.
+ \item \textbf{Refining:} The resulting "base bullion" of 95-99\% lead with impurities is then refined to remove such impurities like copper, antimony, and bismuth to produce high-purity lead. If silver content is substantial, it also gets recovered in the refining process
+\end{enumerate}
+\newpage
+% magnetite here
+\section{Magnetite (Fe\textsubscript{3}O\textsubscript{4})}
+\onehalfspacing
+\noindent\fontsize{12}{14}\selectfont Magnetite is a main iron oxide mineral that holds significant scientific and industrial importance. Natural magnetized specimens are known as lodestones. Magnetite is critically important in the modern era as a major iron ore, serving as a primary raw material for steel production.
+\begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.7\textwidth, height=200pt]{Magnetite-118736.jpg}  % Adjust width and height
+        \caption{Magnetite}
+    \end{figure}
+    
+\noindent\fontsize{12}{14}\selectfont Magnetite is a very common mineral found in a wide variety of rock types, in igneous and metamorphic environments. This belongs to the spinel group and exhibits chemical relationships with other minerals such as ilmenite, hematite, and hercynite. Also, it can incorporate several elements into its structure, including titanium (Ti), manganese (Mn), magnesium (Mg), zinc (Zn), nickel (Ni), aluminum (Al), chromium (Cr), and vanadium (V). This usually forms crystals in the shape of octahedrons (two pyramids joined at the base), and sometimes in dodecahedron shapes (with 12 flat faces). Magnetite can have some special types like oolitic, even appearing as very small cubes.
+
+\vspace{1cm}
+\noindent\fontsize{12}{14}\selectfont The magnetite can change into martite, which is a form of hematite. During this change, magnetite loses its magnetic properties and becomes harder making it harder to separate the ore using magnets. Also, another form like thermite is a mixture of finely pulverized magnetite and aluminum. This mixture burns, produces a lot of heat, and makes molten iron and aluminum oxide. In the following section, I will discuss the genesis, properties, and metal extraction of magnetite.
+\newpage
+\subsection{Genesis of Magnetite}
+\noindent\fontsize{12}{14}\selectfont The magnetite mineral is formed from the layers of rocks in the earth’s crust that contain volcanic ashes. When ash settles, the atoms start to move, and electrons create friction that cause gives the magnetic property to the magnetite. Magnetite is found in igneous, metamorphic, and sedimentary rocks. This has the highest iron content (72.4\%). 
+
+\noindent\fontsize{12}{14}\selectfont Magnetite form is a result of various geological approaches including igneous, metamorphic, sedimentary, and hydrothermal settings. Also, specific conditions involve formations of magnetite such as temperature, pressure, oxygen, and composition of surrounding fluids. 
+\subsubsection{Igneous Genesis}
+\noindent\fontsize{12}{14}\selectfont Magnetite forms as a small part of many igneous rocks like those of mafic composition, such as gabbro, basalt, and peridotite. When magma cools slowly, allows magnetite to grow and sink to the bottom through called magnetic segregation.
+\begin{itemize}[label=\textbullet]  % Circle bullet
+\item The titanomagnetite forms a solid solution between magnetite and ulvospinal. This contains both iron and titanium.
+\item This also be present as granite pegmatites, which form during the late stages of magma crystallization.
+\end{itemize}
+\subsubsection{Metamorphic Genesis}
+\noindent\fontsize{12}{14}\selectfont When existing rocks are subject to high heat and pressure, magnetite can form. This called as metamorphic process.
+\begin{itemize}[label=\textbullet]  % Circle bullet
+\item Contact metamorphism – when magma intrudes existing rocks, this leads to the form of magnetite, particularly in impure iron-rich limestones.
+\item Regional metamorphism – this affects large areas due to changes in temperature and pressure and can lead to magnetite formation.
+\item Serpentinization – a process involving the hydrothermal alteration of ultramafic rocks.
+\end{itemize}
+\noindent\fontsize{12}{14}\selectfont In this genesis, magnetite can be found alongside minerals like pyrrhotite, pyrite, chalcopyrite, pentlandite, sphalerite, hematite, and various silicate minerals. This formation of magnetite is influenced by the composition of the original rock and the intensity of the metamorphic conditions.
+\subsubsection{Hydrothermal Genesis}
+\begin{itemize}[label=\textbullet]  % Circle bullet
+\item These can be found near rocks changed by contact metamorphism and in sulfide vein deposits. 
+\item The chemical composition of hydrothermal magnetite can help in the discovery of valuable ore deposits.
+\item Hydrothermal magnetite typically has more magnesium (Mg) and less vanadium (V) than magnetite that comes from magma.
+\item Sometimes, under special conditions, it forms rounded, ball-like shapes.
+\item The formation of magnetite depends on the type and temperature of the hydrothermal fluids.
+\item Studying hydrothermal magnetite is important in understanding how ore deposits form.
+\end{itemize}
+\subsubsection{Sedimentary Genesis}
+\begin{itemize}[label=\textbullet]  % Circle bullet
+\item During the early Proterozoic Eon, banded iron formations (BIFs) developed, and the magnetite precipitated from iron-rich seawater under low oxygen conditions. 
+\item Magnetite can be found as detrital grains in black sands or heavy sands.
+\item Some living organisms like bacteria and orcas can produce magnetite called magneto fossils. 
+\end{itemize}
+\newpage
+\subsection{Properties of Magnetite}
+\subsubsection{Physical Properties of Magnetite}
+\noindent\fontsize{12}{14}\selectfont This exhibits a district set of physical properties, including macroscopic characteristics such as color, luster, hardness, density, cleavage, fracture, streak, crystal structure, and transparency.
+\begin{table}[h]
+\centering
+\begin{tabular}{{@{} l p{8cm} @{}}}
+\toprule
+\textbf{Property}& \textbf{Value} \\ 
+\midrule
+Color & Black, grayish black, iron black, sometimes brownish tint \\
+Luster & Metallic to submetallic, can be dull \\
+Hardness (Mohs) & 5.5 - 6.5\\
+Density & 5.1 - 5.2 g/cm \textsubscript{3}\\
+Specific Gravity & 4.9 - 5.2 \\
+Cleavage & None, parting on {111} (very good) \\
+Fracture & Uneven to sub conchoidal, brittle \\
+Streak & Black \\
+Transparency & Opaque, translucent in very thin edges \\
+Crystal System & Isometric (Cubic) \\
+Crystal Class & Hexoctahedral (m3m) \\
+Crystal Habit & Typically octahedral, also dodecahedral, massive, granular\\
+Special Property & Strongly magnetic (ferrimagnetic) \\
+\bottomrule
+\end{tabular}
+\caption{Physical Properties of Magnetite}
+\end{table}
+\subsubsection{Magnetite Properties of Magnetite}
+\noindent\fontsize{12}{14}\selectfont Magnetite has strong magnetic properties, and key magnetic characteristics including ferrimagnetism, Curie temperature, magnetic susceptibility, and behavior in the form of lodestone.
+\begin{table}[h]
+\centering
+\begin{tabular}{{@{} l p{8cm} @{}}}
+\toprule
+\textbf{Property}& \textbf{Value} \\ 
+\midrule
+Magnetic Behavior& Ferrimagnetic, strongly attracted to magnets \\
+Curie Temperature & ~575-585 \textsubscript{0}C (850-858 K) \\
+Hardness (Mohs) & 5.5 - 6.5\\
+Magnetic Susceptibility & High \\
+Lodestone & Naturally magnetized magnetite attracts iron \\
+Magnetic Structure & Inverse spinel, antiparallel spin alignment, net magnetic moment \\
+\bottomrule
+\end{tabular}
+\caption{Physical Properties of Magnetite}
+\end{table}
+\newpage
+\subsection{Metal Extraction}
+\noindent\fontsize{12}{14}\selectfont The most commonly used method for magnetite separation is weak magnetic separation. However, pure magnetite is rare in nature. Most of the time, magnetite is found mixed with other minerals. Because of that several methods are used for separation.
+\subsubsection{Single magnetic separation method}
+\noindent\fontsize{12}{14}\selectfont This method is suitable for magnetite ore with strong magnetism, simple mineral composition, and ease of grinding.
+\subsubsection{Weak magnetic separation – Flotation method}
+\noindent\fontsize{12}{14}\selectfont Magnetite ore contains impurities like silicate, sulfide, or apatite, the single magnetic separation cannot be used because of concentrated impurities. In such cases, a combination of weak magnetic separation and reverse flotation is used. In here, magnetic separation recovers iron and flotation removes sulfide or apatite.
+\subsubsection{Magnetization calcination method}
+\noindent\fontsize{12}{14}\selectfont For weakly magnetic iron oxide mixed ores like hematite or limonite, the magnetization calcination method is applied. Here, the ore is heated to convert weakly magnetic minerals to strong magnetite so that separation becomes easy in a weak magnetic field using a magnetic separator. This method strengthens the magnetism of the iron minerals but minimally affects the gangue minerals.
+\subsubsection{Combined beneficiation method}
+\noindent\fontsize{12}{14}\selectfont This technique is employed for polymetallic magnetite ores where metal minerals like pyrite or chalcopyrite are accompanied by gangue minerals like quartz or chlorite. This process encompasses several steps: original gravity separation is utilized to treat gangue minerals, then magnetic separation is used to recover the iron minerals and finally flotation is utilized to recover the accompanying metal constituent. This tandem technique is effective for complicated ores with fine constituent particles.
+\subsubsection{Stages of Extraction}
+\noindent\fontsize{12}{14}\selectfont Before separation, mining and ore preparation are the initial steps. Magnetite ore is usually mined through open-pit or underground mining operations. These methods involve drilling and blasting to break the ore and transport it to the processing plant for iron separation. The separation process of the material can be divided into 4 stages. The discovered or mined magnetite can be used to extract iron through the following stages.
+\begin{enumerate}[label=\arabic*.]  % Arabic numerals with a period after
+    \item \textbf{Crushing and Screening: -} The raw ore magnetite is two-stage crushed by making the ore pass through a coarse crusher (like a jaw crusher) and then through a fine crusher (like a cone or hammer crusher). Screening is done after fine crushing, with smaller sizes moving to the subsequent stage and larger ones being sent back for re-crushing.
+    \item \textbf{Grinding and Classification: -} The crushed ore is ground in a ball mill to separate the magnetite from gangue minerals. The ground material is classified with the help of a spiral classifier. If the particle size is too large, it is sent back for grinding.
+    \item \textbf{Separation: -} The ore is subsequently treated through magnetic separation, in which the magnetic minerals are separated to obtain a coarse concentrate. The concentrate is then subjected to secondary separation to obtain the final iron concentrate, while tailings are rejected. For complex ores, additional methods like gravity separation, flotation, or calcination might be used.
+    \item \textbf{Magnetite Dehydration: -} After separation, the iron contains the water, so it goes through dehydration. The slurry is going to thickener to remove excess water and then concentrate is dried to obtain a powder. The result is concentrated with a recovery rate of up to 80\%, depending on the ore’s characteristics. 
+    
+\end{enumerate}
+\subsubsection{Smelting of Magnetite in a Blast Furnace}
+\begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.5\textwidth, height=150pt]{sensors-22-04526-g001-550.jpg}  % Adjust width and height
+        \caption{Blast Furnace}
+    \end{figure}
+\noindent\fontsize{12}{14}\selectfont The blast furnace is used to chemically turn concentrated ore into liquid metal. This is a large steel furnace lined with heat-resistant bricks. Iron ore, coke, and limestone are added from the top, and hot air flows from the bottom. The main ingredients are crushed into small pieces, mixed, and added to a hopper that controls the input. The hot air burned coke and created temperatures up to about 2200K. At this temperature, coke reacts with oxygen in the hot air and forms carbon monoxide (CO). The CO and heat meet the raw materials coming down from the top. The top of the furnace has a much lower temperature, where magnetite is reduced to ferrous oxide (FeO).
+\noindent\fontsize{12}{14}\selectfont At 500 – 800 K, In the upper part with low temperature,
+\[Fe_3O_4 + CO \rightarrow 3 Fe + CO_2\]
+\noindent\fontsize{12}{14}\selectfont At 900 – 1500 K, In the lower part,
+\[C + CO_2\rightarrow2CO\]
+\newpage
+\section{Chromite}
+\noindent\fontsize{12}{14}\selectfont Chromite (FeCr \textsubscript{2}O \textsubscript{4}) is the major ore of chromium – a metal of critical application to stainless steel, specialty alloys, and plating. It is an oxide mineral of the spinel group (isometric crystal system) and is most frequently linked with mantle-derived igneous rocks. Chromite is of economic importance in that it is high in chromium content and is the only viable source of Cr metal.
+\begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.5\textwidth, height=150pt]{download.jpeg}  % Adjust width and height
+        \caption{Chromite}
+    \end{figure}
+
+\subsection{Genesis of Chromite Deposits}
+\noindent\fontsize{12}{14}\selectfont Chromite is formed by magmatic segregation or crystallization in some environments. Stratiform (layered intrusion) and podiform (ophiolite) deposits are the two major forms of deposits, with a minor representation in heavy-mineral placer (beach sand) deposits.
+\begin{enumerate}[label=\arabic*.]  % Arabic numerals with a period after
+    \item \textbf{Stratiform (Layered Intrusions) –} These tabular to funnel-shaped ultramafic–mafic intrusions (typically Precambrian) cooled slowly at depth, with early crystallizing chromite crystals settling into discrete layers or seams. Some exceptional examples include Bushveld Complex (South Africa), Great Dyke (Zimbabwe), Stillwater Complex (USA), and Kemi Complex (Finland). In layered cumulates, individual chromitite (chromite-rich) layers may be centimeters to meters thick and tens of kilometers in lateral extent. Most of the world's chromium reserves are in such stratiform ore, which is commonly 50–90\% chromite in the ore mined.
+    \item \textbf{Podiform (Ophiolitic) Deposits –} Occur in slices of ancient oceanic lithosphere (ophiolites) thrust onto continents. There, the chromite forms as little, irregular "pods" or lenses in ultramafic rocks (dunites and peridotites) of oceanic mantle sequences. Podiform chromitites form in supra-subduction or mid-ocean ridge settings; they tend to be smaller (up to ~10 million tonnes) and high in Cr₂O₃ grades (~42–459\%). Large podiform deposits are found in Kazakhstan, the Philippines, Russia, Zimbabwe, Cyprus, and Turkey. Chromite is dispersed in serpentinite or tectonite in these ophiolite complexes and is not as strongly stratified as it would be in stratiform deposits.
+    \item \textbf{Placer (Beach Sand) Deposits –}Weathering of chromite-bearing ultramafic rocks produces durable chromite grains that accumulate in heavy-mineral sands. Because chromite is relatively resistant to weathering and has high specific gravity, it concentrates in soils, streams, and coastal sands. Economic beach placer deposits have been mined historically (for example, in Sri Lanka and India) by separating chromite from lighter minerals in the sand.
+\end{enumerate}
+\subsection{Properties of Chromite}
+\noindent\fontsize{12}{14}\selectfont Chromite is a dense, iron–chromium oxide with distinctive physical and chemical properties.
+\subsubsection{Physical Properties of Chromite}
+\begin{itemize}[label=\textbullet]  % Circle bullet
+\item \textbf{Color:} Chromite tends to be black or brownish-black in color, making it easy to distinguish from many other minerals.
+\item \textbf{Luster:} The material exhibits a submetallic to metallic sheen, indicating that it reflects light, albeit not as intensely as that of pure metals.
+\item \textbf{Hardness:} It is approximately 5.5 on the Mohs scale, so it is fairly hard — you can scratch it with harder material like quartz.
+\item \textbf{Density:} Chromite is heavy (around 4.5–5.1 g/cm³), so it will feel much heavier than most everyday rocks or minerals.
+\item \textbf{Crystal System:} It is a member of the isometric (cubic) crystal system and typically forms as octahedral crystals or as dense, granular masses.
+\item \textbf{Streak:} When rubbed on a rough porcelain plate, chromite leaves a brown streak, thus identifying it.
+\item \textbf{Cleavage and Fracture:} Does not show true cleavage (i.e., it does not break along plane surfaces) and breaks with a rough to moderately shell-like (subconchoidal) surface.
+\item \textbf{Opacity:} Chromite is opaque, meaning that no light can pass through it, even in thin sections.
+\end{itemize}
+\subsubsection{Chemical Properties of Chromite}
+\begin{itemize}[label=\textbullet]  % Circle bullet
+\item \textbf{Major Constituent:} Chromite primarily consists of chromium oxide (Cr₂O₃) and iron oxide (FeO) and, at times, magnesium or aluminum oxides.
+\item \textbf{Chemical Stability:} It is extremely corrosion- and oxidation-resistant, even at high temperatures, and therefore very long-lasting under severe conditions.
+\item \textbf{Weathering Resistance:} Under normal surface conditions, chromite is stable and changes little to other minerals over long durations.
+\item \textbf{Reactivity:} Under conditions where strong oxidizing agents are prevalent, for example, in acidic solutions or oxygen-rich water systems, chromium may be freed from chromite and subsequently establish other chromium-bearing minerals.
+\item \textbf{Industrial Behavior:} Owing to its high chemical resistance, chromite is widely used in high-temperature furnaces, metal production, and corrosion-resistant materials.
+\end{itemize}
+\subsection{Metals Extracted from Chromite}
+\noindent\fontsize{12}{14}\selectfont Chromite ore is mostly extracted for its content of chromium (Cr). The chromium constitutes 40–50\% of the chromite oxide (as Cr₂O₃) and is extracted by smelting to yield ferrochromium, an iron–chromium alloy. Chromite concentrates with 40–50\% Cr₂O₃ are reduced in electric furnaces with carbon to give ferrochrome (Fe–Cr alloy). The ferrochrome's chromium is used in stainless steel manufacture and other corrosion-resistant alloys. Chromium metal is also obtained through the electrolytic purification of chromic oxide or ferrochrome. Iron (Fe) present in chromite is incorporated into the ferrochrome alloy, so the principal product is ferrochrome, typically with a content of around 50\% chromium.
+
+\noindent\fontsize{12}{14}\selectfont In addition to chromium, chromite ore can carry valuable by-products:
+
+\noindent\fontsize{12}{14}\selectfont Platinum-group elements (PGEs) are commonly associated with large stratiform chromite deposits, e.g., the Bushveld Complex and the Great Dyke, where they are present in disseminated form in sulfide or mineral inclusions. The PGEs are not normally extracted directly from chromite but are commonly recovered as by-products from the respective chromitite ore zones or adjacent sulfide ores. For example, the Bushveld chromitites carry laurite, cooperite, and other PGE minerals.
+\noindent\fontsize{12}{14}\selectfont Other trace elements: Some chromite ores contain minor vanadium or nickel, which may be recovered if present in economic amounts. Vanadium has also been recovered from ferrochrome slag in certain chromite operations in the past. These are relatively minor compared to chromium production.
+\end{document}
